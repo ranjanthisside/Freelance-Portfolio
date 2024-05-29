@@ -233,19 +233,19 @@ b{
   width: 50%;
   margin: 5px;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
 }
 .skill-logo-container{
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  justify-content: center;
+  justify-content: space-around;
   gap: 10px;
 }
 .skill-logo{
-  height: 100px;
-  width: 100px;
+  height: 12vw;
+  width: 12vw;
   margin: 10px;
   transition: 0.3s linear;
 }
@@ -257,10 +257,11 @@ b{
   background-color: white;
   /* height: 100vh; */
   padding-bottom: 5rem;
+  margin-bottom: 30vh;
 }
 .education-section-container{
   /* border: 2px solid black; */
-  height: 100vh;
+  height: fit-content;
   display: flex;
   justify-content: center;
   width:1200px;
@@ -316,7 +317,7 @@ b{
 }
 .edu-sec-item{
 width: 90%;
-height: 30%;
+height: 100%;
 padding: 2%;
 box-shadow: 0 2px 25px 2px rgb(96, 149, 255), 0 2px 50px 2px rgba(0, 0, 0, 0.25), 0 0 100px 3px rgba(0, 0, 0, .25);
 

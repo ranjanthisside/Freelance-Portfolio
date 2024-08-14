@@ -36,15 +36,15 @@ body{
     border-bottom: 2px solid black;
     border-radius:0px 0px 20px 20px;
 } 
-.logo{
+.brand-logo{
     width: 40px;
 }
-.logo-text{
+.brand-logo-text{
     font-size: 2rem;
     margin-left: -10px;
     font-family: 'Playfair Display', serif;
 }
-.logo-container{
+.brand-logo-container{
   margin-left: 10vw;
   display: flex;
   gap: 20px;
@@ -194,6 +194,7 @@ b{
   /* background-color: #ddd; */
   background-color: rgb(208, 207, 207);
   margin: 8px;
+  border-radius: 10px;
 }
 
 .skills {
@@ -202,6 +203,7 @@ b{
   padding-bottom: 10px;
   padding-right: 10px;
   color: white;
+  border-radius: 10px;
 }
 
 .VE {
@@ -252,22 +254,22 @@ b{
   gap: 10px;
 }
 .skill-logo{
-  height: 12vw;
-  width: 12vw;
-  margin: 10px;
+  height: 10vw;
+  width: 10vw;
+  margin: 20px;
   transition: 0.3s linear;
 }
 .skill-logo:hover{
   transform: scale(1.1);
 }
-/* education section code starts from here  */
-.education-section{
+/* experience section code starts from here  */
+.experience-section{
   background-color: white;
   /* height: 100vh; */
   padding-bottom: 5rem;
   margin-bottom: 30vh;
 }
-.education-section-container{
+.experience-section-container{
   /* border: 2px solid black; */
   height: fit-content;
   display: flex;
@@ -276,7 +278,7 @@ b{
   margin:0 auto;
   position: relative;
 }
-.education-heading{
+.experience-heading{
   text-align: center;
   color: rgb(68, 68, 196);
   font-size: 3rem;
@@ -315,15 +317,15 @@ b{
   margin-top: -20px;
 } */
 
-.edu-section-left{
+.exp-section-left{
   /* border: 2px solid red; */
   /* width: 50%; */
-  display: flex;
+  display: inline-flex;
   flex-direction: row;
   justify-content: center;
   gap: 10vw;
 }
-.edu-sec-item{
+.exp-sec-item{
 width: 90%;
 height: 100%;
 padding: 2%;
@@ -332,14 +334,14 @@ box-shadow: 0 2px 25px 2px rgb(96, 149, 255), 0 2px 50px 2px rgba(0, 0, 0, 0.25)
 border-radius: 20px;
 transition: 1s;
 }
-.edu-sec-item:hover{
+.exp-sec-item:hover{
   transform: scale(1.03);
   cursor: pointer;
 }
-.edu-section-right{
+.exp-section-right{
   /* border: 2px solid red; */
   width: 50%;
-  display: flex;
+  display: inline-flex; 
   justify-content: center;
   align-items: center;
 }
@@ -347,23 +349,26 @@ transition: 1s;
   height: 100px;
   width: 100px;
 }
-.degree-container{
+.position-container{
   position: relative;
   top: -40%;
   right: -55%;
 }
+.degree-container > div{
+  /* display: inline-block; */
+}
 
-.degree{
+.position{
   font-size: 1.6rem;
   color: #1e04b2;
   padding: 3px;
 }
-.institute{
+.company{
   font-size: 1.2rem;
   color: #eb822d;
   padding: 3px;
 }
-.date{
+.description{
   font-size: 1.2rem;
   color: grey;
   padding: 3px;
@@ -485,6 +490,7 @@ transition: 1s;
   background-color: #0abcf9;
   background-image: linear-gradient(to top,  #bcc2f7 40%, whitesmoke 100%);
   padding-bottom: 40px;
+  padding-top: 10vh;
   color: rgb(0, 0, 0);
 }
 
